@@ -1,10 +1,11 @@
+#!/bin/bash
 
 set -euo pipefail # will exit the script if something goes wrong
 
 # ---------- INPUT ----------
-PRI_ASM="Pogonus_T2T.asm.hic.p_ctg.fa"
-ALT_ASM="Pogonus_T2T.asm.hic.a_ctg.fa"
-PB_READS="pacbio/GC157810.fasta"
+PRI_ASM="primary_assembly.fa"
+ALT_ASM="alternative_assembly.fa"
+PB_READS="pacbio_reads.fasta"
 BIN_DIR="bin"  # path to purge_dups binaries
 CPUs=36
 
