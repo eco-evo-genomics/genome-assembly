@@ -34,7 +34,7 @@ PB_READS="pacbio_reads.fasta"
 THREADS=36
 
 # Path to purge_dups binaries
-BIN_DIR="bin"
+BIN_DIR="path/to/purge_dups"
 
 # -----------------------------
 # Safety settings
